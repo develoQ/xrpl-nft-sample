@@ -1,9 +1,5 @@
 const { Xumm } = require('xumm');
-const {
-  percentToTransferRate,
-  convertStringToHex,
-  NFTokenMintFlags,
-} = require('xrpl');
+const { convertStringToHex, NFTokenMintFlags } = require('xrpl');
 
 const xumm = new Xumm('apikey', 'apisecret');
 
